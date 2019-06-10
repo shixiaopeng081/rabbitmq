@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    addresses: 132.232.80.227
+    port: 5672
+    username: admin
+    password: 123456
+    listener:
+      simple:
+        acknowledge-mode: manual
+
+logging:
+  level:
+    com:
+      sunlands: debug

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: rabbitmq
+
+server:
+  port: 8092
+
